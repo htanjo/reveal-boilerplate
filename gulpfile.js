@@ -21,4 +21,17 @@ gulp.task('serve', function () {
   .on('change', browserSync.reload);
 });
 
+gulp.task('deploy', function () {
+  return gulp.src([
+    'index.html',
+    'slides/*',
+    'css/*',
+    'bower_components/reveal.js/**',
+    'hotfix/**'
+  ], {
+    base: '.'
+  })
+  .pipe($.ghPages());
+});
+
 gulp.task('default', ['serve']);
