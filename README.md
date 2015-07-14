@@ -3,9 +3,9 @@
 
 ## Features
 - **Quick installation** via [Bower](http://bower.io/)
-- **Markdown** supported
+- **Markdown** support
 - **Live preview** using [Browsersync](http://www.browsersync.io/)
-- **Easy publishing** on github.io
+- **Easy publishing** to github.io
 
 ## Quick start
 [Download](https://github.com/htanjo/reveal-boilerplate/archive/master.zip), fork or clone this repository:
@@ -26,16 +26,16 @@ Start presentation:
 $ gulp
 ```
 
-Then, your presentation will start on the web browser automatically!
+Then, your presentation will start on your web browser automatically!
 
-## Writing
-Write markdown in "[slides/main.md](slides/main.md)".  
-When you save the markdown, your presentation on the browser will automatically updated.
+## Write
+Write Markdown text in "[slides/main.md](slides/main.md)".  
+When you save the file, your presentation on the browser will instantly updated.
 
 **Tip** : Insert 3 blank lines to create a new slide.
 
 ## Publish
-If you host your presentation on GitHub, you can easily publish it to github.io.
+If you host the presentation on GitHub, you can easily publish it to [GitHub Pages](https://pages.github.com/).
 
 ```sh
 $ gulp deploy
