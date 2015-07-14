@@ -1,0 +1,7 @@
+{
+  "name": "reveal-boilerplate",
+  "private": true,
+  "dependencies": {
+    "reveal.js": "~3.1.0"
+  }
+}
