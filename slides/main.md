@@ -1,5 +1,15 @@
-# Reveal.js Boilerplate
+# reveal-boilerplate
+Boilerplate for [revela.js](http://lab.hakim.se/reveal-js/) presentation.
 
 
 
-Hello, reveal.js!!
+## Features
+- **Quick installation** via [Bower](http://bower.io/)
+- **Markdown** support
+- **Live preview** using [Browsersync](http://www.browsersync.io/)
+- **Easy publishing** to github.io
+
+
+
+## Start reveal.js
+[Download](https://github.com/htanjo/reveal-boilerplate/archive/master.zip) or [view on GitHub](https://github.com/htanjo/reveal-boilerplate)
