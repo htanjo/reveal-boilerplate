@@ -7,6 +7,9 @@
 - **Live preview** using [Browsersync](http://www.browsersync.io/)
 - **Easy publishing** to github.io
 
+## Demo
+<http://htanjo.github.io/reveal-boilerplate/>
+
 ## Quick start
 [Download](https://github.com/htanjo/reveal-boilerplate/archive/master.zip), fork or clone this repository:
 
