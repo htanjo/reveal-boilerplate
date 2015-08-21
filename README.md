@@ -47,4 +47,4 @@ $ gulp deploy
 This will publish your presentation on `http://<user>.github.io/<repo>/` by pushing it to `gh-pages` branch.
 
 ## License
-Copyright (c) 2015 Tanjo, Hiroyuki. Licensed under the MIT License.
+Copyright (c) 2015 Hiroyuki Tanjo. Licensed under the MIT License.
