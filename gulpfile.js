@@ -26,7 +26,7 @@ gulp.task('deploy', function () {
     'index.html',
     'slides/*',
     'css/*',
-    'bower_components/reveal.js/**',
+    'node_modules/reveal.js/**',
     'hotfix/**'
   ], {
     base: '.'
