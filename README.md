@@ -2,7 +2,7 @@
 > Boilerplate for [revela.js](http://lab.hakim.se/reveal-js/) presentation.
 
 ## Features
-- **Quick installation** via [Bower](http://bower.io/)
+- **Quick installation** via [npm](https://www.npmjs.com/)
 - **Markdown** support
 - **Live preview** using [Browsersync](http://www.browsersync.io/)
 - **Easy publishing** to github.io
@@ -20,7 +20,7 @@ $ git clone https://github.com/htanjo/reveal-boilerplate.git
 Install dependencies:
 
 ```sh
-$ npm install && bower install
+$ npm install
 ```
 
 Start presentation:
