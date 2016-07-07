@@ -26,7 +26,7 @@ $ npm install
 Start presentation:
 
 ```sh
-$ gulp
+$ npm start
 ```
 
 Then, your presentation will start on your web browser automatically!
@@ -41,7 +41,7 @@ When you save the file, your presentation on the browser will instantly updated.
 If you host the presentation on GitHub, you can easily publish it to [GitHub Pages](https://pages.github.com/).
 
 ```sh
-$ gulp deploy
+$ npm run deploy
 ```
 
 This will publish your presentation on `http://<user>.github.io/<repo>/` by pushing it to `gh-pages` branch.
