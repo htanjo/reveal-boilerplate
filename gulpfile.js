@@ -11,14 +11,13 @@ gulp.task('serve', function () {
     server: {
       baseDir: ['.']
     },
+    files: [
+      'index.html',
+      'slides/*',
+      'css/*'
+    ],
     ui: false
   });
-  gulp.watch([
-    'index.html',
-    'slides/*',
-    'css/*'
-  ])
-  .on('change', browserSync.reload);
 });
 
 gulp.task('deploy', function () {
@@ -26,8 +25,7 @@ gulp.task('deploy', function () {
     'index.html',
     'slides/*',
     'css/*',
-    'node_modules/reveal.js/**',
-    'hotfix/**'
+    'node_modules/reveal.js/**'
   ], {
     base: '.'
   })
